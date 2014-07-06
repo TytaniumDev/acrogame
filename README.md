@@ -1,4 +1,4 @@
-flots
+Acro
 =====
 
-Word game where you try to solve the puzzle only knowing the First Letter Of The Sentence
+Word game where you try to solve the puzzle only knowing the first letter of the sentence
