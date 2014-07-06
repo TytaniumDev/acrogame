@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.tywholland.flots"
+        applicationId "com.tywholland.acrogame"
         minSdkVersion 15
         targetSdkVersion 'L'
         versionCode 1
