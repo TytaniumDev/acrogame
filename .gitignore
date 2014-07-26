@@ -1,7 +1,10 @@
-.gradle
 /local.properties
-/.idea/workspace.xml
 .DS_Store
 /build
 keystore.properties
 keystore.properties
+.gradle/
+.idea/
+*.iml
+app/app.iml
+*.iml
