@@ -127,9 +127,10 @@ public class SkeletonActivity extends BaseGameActivity implements OnInvitationRe
     // Open the create-game UI. You will get back an onActivityResult
     // and figure out what to do.
     public void onStartMatchClicked(View view) {
-        Intent intent = Games.TurnBasedMultiplayer.getSelectOpponentsIntent(getApiClient(),
-                1, 7, true);
-        startActivityForResult(intent, RC_SELECT_PLAYERS);
+//        Intent intent = Games.TurnBasedMultiplayer.getSelectOpponentsIntent(getApiClient(),
+//                1, 7, true);
+//        startActivityForResult(intent, RC_SELECT_PLAYERS);
+        startActivity(new Intent(this, TurnActivity.class));
     }
 
     // Create a one-on-one automatch game.

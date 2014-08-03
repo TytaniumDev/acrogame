@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.tywholland.acrogame.TurnActivity"
+            android:label="@string/turn"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+            android:parentActivityName=".SkeletonActivity">
+        </activity>
     </application>
 
 </manifest>

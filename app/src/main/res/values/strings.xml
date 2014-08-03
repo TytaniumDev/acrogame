@@ -18,4 +18,5 @@
     <string name="check_games">Check games</string>
     <string name="start_match">Start Match</string>
     <string name="turn_counter">Turn counter</string>
+    <string name="turn">Turn</string>
 </resources>
